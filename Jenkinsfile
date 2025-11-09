@@ -1,4 +1,4 @@
-@Library('shared-lib') _
+@Library('my-jenkins-shared-library') _
 
 dockerDeployPipeline(
     repoUrl: 'https://github.com/Jackk-Doe/jenkin_test_app_two.git',
