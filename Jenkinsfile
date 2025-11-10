@@ -5,7 +5,7 @@ dockerDeployPipeline(
     branch: 'main',
     dockerHubRepo: 'jackkdoe/jenkin_test_app_two',
     dockerHubCredsId: 'dockerhub-creds',
-    sshCredsId: 'vm-ssh-password',
+    sshCredsId: 'vm-ssh-password-2',
     deployHost: '143.198.199.4',
     deployPath: 'jenkin_test_app_two',
     discordWebhookId: 'discord-webhook'  // optional
