@@ -11,7 +11,7 @@ func main() {
 	e := echo.New()
 	e.Use(middleware.Logger())
 	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Hello, World! UPDATED! APP TWO!")
+		return c.String(http.StatusOK, "Hello, World! UPDATED! APP TWO!!")
 	})
 	e.Logger.Fatal(e.Start(":3030"))
 }
